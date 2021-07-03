@@ -35,7 +35,7 @@ var clickEvent = (function() {
             j++;
             console.log(j)
             if(j==1){
-            // document.documentElement.requestFullscreen();
+            document.documentElement.requestFullscreen();
             }else if(j==2){
               message.textContent="";
             for(let i =0; i<first.length;i++){
