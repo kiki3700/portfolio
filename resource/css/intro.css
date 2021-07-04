@@ -1,0 +1,29 @@
+html, body{
+    
+}
+
+body{
+    height: 98vh;
+    background-color: #000;
+    font-family: "Subway Ticker Grid";
+    color: rgb(44, 214, 1);
+    display: flex;
+    justify-content:  center; /*이게 잘 바꾸ㅕ야함*/
+    align-items: center;
+
+}
+
+.menu-list{
+    list-style: none;
+    height: 95vh;
+    color: rgb(44, 214, 1);
+    display: none;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    border-right: rgb(44, 214, 1) dashed 1.5px;
+}
+
+.main > div{
+    display: inline;   
+}
