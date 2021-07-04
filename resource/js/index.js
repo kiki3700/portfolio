@@ -14,7 +14,7 @@ function showMenu(){
 var message=document.getElementById("message");
 let first="welcome to my portfolio.";
 let second="i'm gonna show you somtings."
-let j=0;
+let j=1;
 
 
 
