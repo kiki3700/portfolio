@@ -29,6 +29,11 @@ body{
     border-right: rgb(44, 214, 1) dashed 1.5px;
 }
 
+.menu-list>li{
+    cursor: pointer;
+  
+}
+
 .main > div{
     display: inline;   
 }

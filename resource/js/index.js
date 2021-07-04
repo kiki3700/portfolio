@@ -42,7 +42,7 @@ var clickEvent = (function() {
 })();
 
 
-    document.body.addEventListener(clickEvent,function(){
+    message.addEventListener(clickEvent,function(){
             j++;
             if(j==1){
               console.log("1");
