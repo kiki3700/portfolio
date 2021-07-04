@@ -1,10 +1,6 @@
 @font-face {font-family: "Subway Ticker Grid"; src: url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.eot"); src: url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.woff") format("woff"), url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.svg#Subway Ticker Grid") format("svg"); }
 
 
-html, body{
-    
-}
-
 body{
     height: 98vh;
     background-color: #000;
