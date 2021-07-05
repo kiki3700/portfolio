@@ -2,8 +2,8 @@
 var nav = document.getElementsByTagName("nav");
 var navList = document.querySelector(".menu-list").children
 var css = document.getElementById("css")
-var main = document.getElementsByClassName("main");
-console.log(main);
+var intro = document.getElementsByClassName("intro");
+console.log(intro);
 function showMenu(){
     nav[0].style.display='inline'
     document.body.style.display="inline"

@@ -20,8 +20,10 @@ body{
     align-items: center;
     border-right: rgb(44, 214, 1) dashed 1.5px;
 }
-
-.main > div{
+.main{
+    display: none;
+}
+.intro > div{
     display: inline;   
 }
 #message{

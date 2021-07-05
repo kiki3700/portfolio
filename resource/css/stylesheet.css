@@ -1,5 +1,5 @@
 @font-face {font-family: "Subway Ticker Grid"; src: url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.eot"); src: url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.woff") format("woff"), url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/02b7bb883ca491958fa10cd8a429bd05.svg#Subway Ticker Grid") format("svg"); }
-
+/* frame*/
 
 body{
     height: 98vh;
@@ -14,13 +14,22 @@ body{
     flex-grow: 1;/*인트로 끝나면 나타나야 할것*/
 }
 .main{
+    font-family: sans-serif;
     align-items: center;
     flex-grow: 5; /*인트로 끝나면 나타나야 할것*/
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
 }
+.intro{
+    display: none;
+}
+
+/* menu   */
 .menu-list{
     list-style: none;
     height: 95vh;
-    /* display: none; */
     color: rgb(44, 214, 1);
     display: flex;
     flex-direction: column;
@@ -35,5 +44,37 @@ body{
 }
 
 .main > div{
-    display: inline;   
+    display: inline;
+}
+
+/* screen  */
+#screen{
+    border: grey solid 2px;
+
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+}
+
+#status{
+    background-color: rgb(0, 81, 255);
+    border: #375 solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.status-btn{
+    color: #000;
+    background-color: rgb(189, 189, 189);
+    padding-right: 5px;
+    margin-right: 5px;    
+}
+
+#screen-view{
+    overflow-y: scroll;
+    background-color: rgb(158, 158, 158);
+    height: 100%;
+    width: 100%;
 }
